@@ -7,7 +7,7 @@ import Preloader from "../../components/preloader/Preloader";
 const Home = () => {
 
   if (localStorage.getItem('user')) {
-    window.location.href = '/datingapp/main'
+    window.location.href = '/datingApp/datingapp/main'
   }
 
   return (

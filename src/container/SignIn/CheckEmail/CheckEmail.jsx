@@ -87,7 +87,7 @@ const CheckEmail = () => {
         setError(false);
         setWait(false);
 
-        window.location.href = "/datingapp/datingApp/main";
+        window.location.href = "/datingApp/datingapp/main";
         // If users Array length === 0
       } else {
         setWait(true);
