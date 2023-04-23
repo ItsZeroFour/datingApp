@@ -154,7 +154,7 @@ function App() {
       <div className="app">
         <div className="app__content">
           <Routes>
-            <Route path="/datingapp" element={<Home />} />
+            <Route path="/datingapp/" element={<Home />} />
             <Route
               path="/datingapp/signup"
               element={<SignUp onSuccess={onSuccess} onFailure={onFailure} />}

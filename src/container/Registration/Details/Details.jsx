@@ -17,7 +17,7 @@ const Details = ({
   const getInputEmail = localStorage.getItem("savedEmail");
 
   if (localStorage.getItem("user")) {
-    window.location.href = "/datingapp/main";
+    window.location.href = "/datingapp/datingApp/main";
   }
 
   // File reader

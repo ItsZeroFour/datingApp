@@ -19,7 +19,7 @@ const Main = () => {
   const user = JSON.parse(localStorage.getItem("user"));
 
   if (!localStorage.getItem("user")) {
-    window.location.href = "/datingapp/";
+    window.location.href = "/datingapp/datingApp/";
   }
 
   // Check if the localStorege is empty - add new Item

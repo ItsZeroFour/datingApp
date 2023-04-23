@@ -99,7 +99,7 @@ const SignIn = () => {
         ));
     contains(emails, email) === true && setOnClicked(false);
     contains(emails, email) === true &&
-      (window.location.href = "/datingapp/checkEmail");
+      (window.location.href = "/datingapp/datingApp/checkEmail");
   };
 
   return (
@@ -123,7 +123,7 @@ const SignIn = () => {
             placeholder="Type your Email"
           />
 
-          {checkUniqueEmail === true || data.length === 0 || email === "" ? (
+          { data.length === 0 || email === "" ? (
             <button type="submit" disabled style={{ opacity: 0.8 }}>
               Continue
             </button>
