@@ -14,7 +14,7 @@ const About = (setAboutMe) => {
   const maxLength = 150;
 
   function changeHref() {
-    window.location.href = "/datingapp/main";
+    window.location.href = "/datingApp/datingapp/main";
   }
 
   setAboutMe.isRegistered === true && changeHref();

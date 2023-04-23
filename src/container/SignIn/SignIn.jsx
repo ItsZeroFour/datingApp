@@ -99,7 +99,7 @@ const SignIn = () => {
         ));
     contains(emails, email) === true && setOnClicked(false);
     contains(emails, email) === true &&
-      (window.location.href = "/datingapp/datingApp/checkEmail");
+      (window.location.href = "/datingApp/datingapp/checkEmail");
   };
 
   return (
