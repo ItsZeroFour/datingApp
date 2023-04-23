@@ -1,0 +1,141 @@
+.users__info {
+  width: 295px;
+  height: 450px;
+
+  img {
+    position: relative;
+  }
+
+  .users__text-info {
+    text-align: left;
+    position: absolute;
+    z-index: 2;
+    color: var(--color-white);
+    margin-top: 23.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+    h3 {
+      margin-bottom: 1rem;
+    }
+
+    @media (max-width: 336px) {
+      margin-top: 20rem;
+      margin-left: 2rem;
+      margin-right: 2rem;
+    }
+
+    @media (max-width: 286px) {
+      margin-top: 18rem;
+      margin-left: 3.5rem;
+      margin-right: 3.5rem;
+    }
+  }
+}
+
+.main__container {
+  position: relative;
+}
+
+.main__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.users__cards {
+  flex-grow: 1;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: flex-end;
+  margin-top: 30rem;
+  z-index: 1;
+}
+
+.users__card {
+  display: inline-block;
+  overflow: hidden;
+  position: absolute;
+  will-change: transform;
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+.users__picture {
+  width: 295px;
+  height: 450px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  border-radius: var(--border-radius-md) !important;
+
+  @media (max-width: 336px) {
+    width: 240px;
+    height: 410px;
+  }
+
+  @media (max-width: 286px) {
+    width: 200px;
+    height: 380px;
+  }
+}
+
+.main__menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+
+  @media (max-width: 286px) {
+    margin-top: -2rem;
+  }
+}
+
+.main__bottom--menu {
+  margin-top: 7rem;
+}
+
+.main__menu-item {
+  padding: 1.3rem;
+  margin: 0.5rem;
+  background-color: var(--color-white);
+  border-radius: 50%;
+  cursor: pointer;
+
+  @media (max-width: 286px) {
+    padding: 1rem;
+  }
+}
+
+.menu__like {
+  background: var(--color-red) !important;
+}
+
+.user__loading--text {
+  margin-top: 2rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  h3 {
+    margin-top: 1rem;
+  }
+}
+
+.main__preloader {
+  width: 380px;
+  height: auto;
+}
+
+.user__loading {
+  height: 50rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.main__bottom-menu {
+  margin-top: auto;
+}

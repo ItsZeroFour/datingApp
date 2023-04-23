@@ -1,0 +1,45 @@
+.signin__container {
+  padding: 2rem;
+  margin-top: 5rem;
+
+  p {
+    margin-top: 1rem;
+    font-weight: 200;
+  }
+}
+
+.signin__form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+
+  input {
+    padding: 1rem;
+    border-radius: var(--border-radius-md) !important;
+    border: 1px solid var(--color-border) !important;
+  }
+
+  button {
+    margin-top: 3rem;
+    padding: 1rem;
+    border-radius: var(--border-radius-md) !important;
+    background: var(--color-red) !important;
+    color: var(--color-white) !important;
+  }
+}
+
+.button__container {
+  button {
+    width: 100%;
+  }
+}
+
+.registration__unique-email {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  
+  a {
+    color: var(--color-red) !important;
+  }
+}

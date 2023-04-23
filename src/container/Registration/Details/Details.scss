@@ -1,0 +1,123 @@
+.details__error {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.detailt__back-link {
+  padding: 1rem 2.5rem;
+  background: var(--color-red) !important;
+  color: var(--color-white) !important;
+  border-radius: var(--border-radius-sm) !important;
+}
+
+.details__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  padding: 3rem;
+
+  h1 {
+    @media (max-width: 285px) {
+      font-size: 1.5rem;
+    }
+
+    @media (max-width: 238px) {
+      font-size: 1.2rem;
+    }
+  }
+}
+
+.input__container {
+  position: relative;
+}
+
+.details__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  input {
+    width: 100%;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border-radius: var(--border-radius-md) !important;
+    border: 1px solid var(--color-border) !important;
+    background: none;
+
+    @media (max-width: 312px) {
+      width: 17rem;
+    }
+
+    @media (max-width: 304px) {
+      width: 15rem;
+    }
+
+    @media (max-width: 285px) {
+      width: 13rem;
+    }
+
+    @media (max-width: 238px) {
+      width: 10rem;
+    }
+  }
+
+  input[type="date"] {
+    margin-left: 1rem;
+
+    @media (max-width: 312px) {
+      margin-left: 0;
+    }
+  }
+
+  label {
+    position: absolute;
+    top: 60%;
+    left: 15px;
+    font-size: 1rem;
+    transform: translateY(-50%);
+    pointer-events: none;
+    transition: var(--transition) !important;
+  }
+
+  input:focus ~ label,
+  input:valid ~ label {
+    top: 25%;
+    left: 15px;
+    padding: 0 2px;
+    font-size: 0.8rem;
+  }
+}
+
+.details__photo {
+  width: 2rem;
+  height: auto;
+  padding: 1.5rem;
+  border: 2px dashed var(--color-gray) !important;
+  border-radius: var(--border-radius-sm) !important;
+}
+
+.details__button {
+  width: 100%;
+  margin: 2rem;
+}
+
+.detailt__avatar-input {
+  display: none;
+}
+
+.detailt__avatar-label {
+  margin-top: 1rem;
+}
+
+.details__avatar {
+  width: 8rem;
+  height: 8rem;
+  -o-object-fit: cover;
+  object-fit: cover;
+  border-radius: var(--border-radius-sm) !important;
+}

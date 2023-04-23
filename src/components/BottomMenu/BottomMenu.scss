@@ -1,0 +1,32 @@
+.bottom-menu__container {
+  width: 100%;
+  margin-right: 2rem;
+  // margin-top: 2rem;
+  border-top: 1px solid var(--color-border) !important;
+  border-bottom: 1px solid var(--color-border) !important;
+  background: var(--color-border) !important;
+}
+
+.bottom-menu__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.bottom-menu__item {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  cursor: pointer;
+
+  @media (max-width: 329px) {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+
+  @media (max-width: 270px) {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}

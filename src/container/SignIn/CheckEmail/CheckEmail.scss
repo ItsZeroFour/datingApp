@@ -1,0 +1,118 @@
+.emailverify__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.goback__button {
+  margin-top: 3rem;
+  margin-left: 2rem;
+
+  svg {
+    color: var(--color-red) !important;
+    padding: 1rem 1.2rem;
+    border: 1px solid var(--color-border) !important;
+    border-radius: var(--border-radius-md) !important;
+    transition: var(--transition) !important;
+    cursor: pointer;
+
+    &:hover {
+      background: var(--color-red) !important;
+      color: var(--color-white) !important;
+    }
+  }
+
+  @media (max-width: 304px) {
+    margin-left: 1rem;
+  }
+}
+
+.emailverify__text {
+  text-align: center;
+  margin-top: 2rem;
+
+  p {
+    margin-top: 1rem;
+  }
+}
+
+.emailverify__inputs {
+  margin-top: 2rem;
+  display: flex;
+
+  input {
+    width: 4rem;
+    height: 4rem;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    border-radius: var(--border-radius-md) !important;
+
+    @media (max-width: 349px) {
+      width: 3rem;
+      height: 3rem;
+    }
+
+    @media (max-width: 304px) {
+      font-size: 1.5rem;
+      width: 2.5rem;
+      height: 2.5rem;
+    }
+
+    @media (max-width: 253px) {
+      width: 2rem;
+      height: 2rem;
+      font-size: 1rem;
+    }
+
+    &::-webkit-input-placeholder {
+      color: var(--color-gray);
+    }
+
+    &::-moz-placeholder {
+      color: var(--color-gray);
+    }
+
+    &:-ms-input-placeholder {
+      color: var(--color-gray);
+    }
+
+    &::-ms-input-placeholder {
+      color: var(--color-gray);
+    }
+
+    &::placeholder {
+      color: var(--color-gray);
+    }
+  }
+
+  input + input {
+    margin-left: 1rem;
+  }
+}
+
+.emailverify__keyboard-list {
+  display: grid;
+  gap: 4rem;
+  grid-template-columns: auto auto auto;
+  font-size: 2rem;
+
+  @media (max-width: 349px) {
+    gap: 2rem;
+  }
+
+  @media (max-width: 304px) {
+    gap: 1.5rem;
+  }
+
+  @media (max-width: 253px) {
+    gap: 1rem;
+  }
+}
+
+.emailverify__keyboard-item {
+  margin-top: 1rem;
+  padding: 1rem;
+  cursor: pointer;
+}

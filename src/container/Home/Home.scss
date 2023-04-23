@@ -1,0 +1,30 @@
+.home__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.registration__button {
+  background: var(--color-red) !important;
+  border-radius: var(--border-radius-md) !important;
+  padding: 1rem 3rem;
+  margin-top: 2rem;
+  font-size: 16px;
+  letter-spacing: 0.09rem;
+  color: var(--color-white) !important;
+}
+
+.signin__text {
+  color: var(--color-secondary) !important;
+  margin-top: 1rem;
+}
+
+.signin__button {
+  color: var(--color-red) !important;
+  font-weight: 700;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

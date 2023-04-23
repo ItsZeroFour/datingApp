@@ -1,0 +1,138 @@
+.account__avatar {
+  width: 375px;
+  height: 415px;
+  background-position: center;
+  background-size: cover;
+}
+
+.account__conetent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.account__info {
+  position: absolute;
+  background: var(--color-white) !important;
+  min-height: 700px;
+  margin-top: 65rem;
+  padding: 2rem;
+  border-top-left-radius: var(--border-radius-lg) !important;
+  border-top-right-radius: var(--border-radius-lg) !important;
+  z-index: 1;
+}
+
+.account__text-info {
+  margin-top: 2rem;
+}
+
+.account__about {
+  margin-top: 2rem;
+
+  p {
+    margin-top: 0.5rem;
+  }
+}
+
+.account__interests {
+  margin-top: 2rem;
+}
+
+.account__interests-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin-top: 0.5rem;
+
+  li {
+    border: 1px solid var(--color-red) !important;
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+    border-radius: var(--border-radius-sm);
+  }
+}
+
+.account__name {
+  display: flex;
+  justify-content: space-between;
+
+  h2 {
+    margin-top: 0.6rem;
+  }
+}
+
+.account__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.account__back--link {
+  margin: 2rem 1.5rem;
+
+  a {
+    border: 1px solid var(--color-red) !important;
+    border-radius: var(--border-radius-sm) !important;
+    color: var(--color-white) !important;
+    padding: 0.8rem 1rem;
+
+    transition: var(--transition) !important;
+
+    &:hover {
+      background: var(--color-red) !important;
+    }
+  }
+
+  @media (max-width: 350px) {
+    margin-left: 3rem;
+  }
+
+  @media (max-width: 298px) {
+    margin-left: 4rem;
+  }
+
+  @media (max-width: 262px) {
+    margin-left: 5rem;
+  }
+
+  @media (max-width: 238px) {
+    margin-left: 6rem;
+  }
+
+  @media (max-width: 208px) {
+    margin-left: 7.5rem;
+  }
+}
+
+.account__signout {
+  margin-top: 1.8rem;
+  margin-right: 1rem;
+  color: var(--color-white) !important;
+  font-size: 1.2rem;
+
+  svg {
+    cursor: pointer;
+  }
+
+  @media (max-width: 350px) {
+    margin-right: 3rem;
+  }
+
+  
+  @media (max-width: 298px) {
+    margin-right: 4rem;
+  }
+
+  @media (max-width: 262px) {
+    margin-right: 5rem;
+  }
+
+  @media (max-width: 238px) {
+    margin-right: 6rem;
+  }
+
+  @media (max-width: 208px) {
+    margin-right: 7.5rem;
+  }
+}

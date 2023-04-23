@@ -1,0 +1,41 @@
+.terms {
+  padding: 1.5rem;
+}
+
+.terms__text {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  letter-spacing: 1.1px;
+}
+
+.terms__list {
+  list-style: circle;
+
+  li {
+    margin-top: 1rem;
+  }
+}
+
+.terms__back--link {
+  margin-bottom: 1.5rem;
+
+  svg {
+    color: var(--color-black) !important;
+  }
+
+  a {
+    border: 1px solid var(--color-red) !important;
+    border-radius: var(--border-radius-sm) !important;
+    padding: 0.8rem 1rem;
+
+    transition: var(--transition) !important;
+
+    &:hover {
+      background: var(--color-red) !important;
+
+      svg {
+        color: var(--color-white) !important;
+      }
+    }
+  }
+}

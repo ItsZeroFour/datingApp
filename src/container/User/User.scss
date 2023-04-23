@@ -1,0 +1,112 @@
+.user__avatar {
+  width: 375px;
+  height: 415px;
+  background-position: center;
+  background-size: cover;
+}
+
+.user__conetent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.user__info {
+  position: absolute;
+  background: var(--color-white) !important;
+  min-height: 700px;
+  margin-top: 65rem;
+  padding: 2rem;
+  width: 83%;
+  border-top-left-radius: var(--border-radius-lg) !important;
+  border-top-right-radius: var(--border-radius-lg) !important;
+  z-index: 1;
+}
+
+.user__text-info {
+  margin-top: 2rem;
+}
+
+.user__about {
+  margin-top: 2rem;
+
+  p {
+    margin-top: 0.5rem;
+  }
+}
+
+.user__interests {
+  margin-top: 1rem;
+}
+
+.user__interests-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin-top: 0.5rem;
+
+  li {
+    border: 1px solid var(--color-red) !important;
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+    border-radius: var(--border-radius-sm);
+  }
+}
+
+.user__controls-list {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 55%;
+  z-index: 2;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.user__controls-item {
+  padding: 1.4rem;
+  margin: 0.5rem;
+  background: var(--color-white) !important;
+  box-shadow: 0px 0px 5px var(--color-black);
+  border-radius: 50%;
+
+  &:nth-child(2) {
+    background: var(--color-red) !important;
+  }
+}
+
+.user__name {
+  display: flex;
+  justify-content: space-between;
+
+  h2 {
+    margin-top: 0.6rem;
+  }
+
+  img {
+    padding: 0.8rem;
+    border: 1px solid var(--color-border) !important;
+    border-radius: var(--border-radius-sm) !important;
+    cursor: pointer;
+  }
+}
+
+.user__back {
+  margin: 2rem;
+
+  a {
+    border: 1px solid var(--color-border) !important;
+    padding: 0.7rem 1rem;
+    border-radius: var(--border-radius-sm) !important;
+    color: var(--color-white) !important;
+    transition: var(--transition) !important;
+
+    &:hover {
+      background: var(--color-red) !important;
+      border: 1px solid var(--color-red) !important;
+    }
+  }
+}
