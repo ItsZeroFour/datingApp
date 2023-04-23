@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/datingApp/static/css/main.5dbeef87.css",
+    "main.js": "/datingApp/static/js/main.9aea1aff.js",
+    "static/media/slider-image-2.jpg": "/datingApp/static/media/slider-image-2.227a52efa4b84a906f50.jpg",
+    "static/media/slider-image-1.jpg": "/datingApp/static/media/slider-image-1.a065cc5c09037da2aaf6.jpg",
+    "static/media/slider-image-3.jpg": "/datingApp/static/media/slider-image-3.d59bfb14670d34bbe75d.jpg",
+    "static/media/preloader.gif": "/datingApp/static/media/preloader.994d047dd51ec91e1561.gif",
+    "static/media/Sk-Modernist-Bold.otf": "/datingApp/static/media/Sk-Modernist-Bold.109e834ca74015344f25.otf",
+    "static/media/Sk-Modernist-Regular.otf": "/datingApp/static/media/Sk-Modernist-Regular.748466dca5113482a27f.otf",
+    "static/media/Sk-Modernist-Mono.otf": "/datingApp/static/media/Sk-Modernist-Mono.0a4aa7d4bf4476b0d770.otf",
+    "static/media/camera.png": "/datingApp/static/media/camera.e4b171aa2da395b00e68.png",
+    "static/media/logo.png": "/datingApp/static/media/logo.bb8b78856e7c360c9650.png",
+    "static/media/Delete.svg": "/datingApp/static/media/Delete.3014b4d96d2051c50d940076cb2ffe1e.svg",
+    "static/media/icon.svg": "/datingApp/static/media/icon.a7a993593e0ad01db50d5b0592770aa0.svg",
+    "static/media/Like.svg": "/datingApp/static/media/Like.b048328962b5730298272343634a029a.svg",
+    "static/media/message.svg": "/datingApp/static/media/message.9eb5912af023c4721536557eb849c66f.svg",
+    "static/media/search.svg": "/datingApp/static/media/search.601e0f3a934ecaf225a4db55bec36591.svg",
+    "static/media/checks.svg": "/datingApp/static/media/checks.c87502af6105f4115eb47c7317933710.svg",
+    "static/media/Broken_heart.svg": "/datingApp/static/media/Broken_heart.f31bd6e20e9cad0b60baa9541a8c2c20.svg",
+    "static/media/google.svg": "/datingApp/static/media/google.bc28ea499129b6ff0cdc585f9babe7ff.svg",
+    "static/media/close.svg": "/datingApp/static/media/close.326a102817a0aeae1e0550855f083561.svg",
+    "static/media/Cross.svg": "/datingApp/static/media/Cross.9601a99ddd6c23c32931b3e0d4e6efe7.svg",
+    "static/media/people.svg": "/datingApp/static/media/people.4f0b97016377fb166689a9c9bf293995.svg",
+    "static/media/send.svg": "/datingApp/static/media/send.1ef9608d03faf64c78d3b998c98f0730.svg",
+    "index.html": "/datingApp/index.html",
+    "static/media/Star.svg": "/datingApp/static/media/Star.87f709ea2d184ab41bf9b68aea8fe72f.svg",
+    "static/media/Cards.svg": "/datingApp/static/media/Cards.da442bd4b5db1663971259507865912c.svg",
+    "main.5dbeef87.css.map": "/datingApp/static/css/main.5dbeef87.css.map",
+    "main.9aea1aff.js.map": "/datingApp/static/js/main.9aea1aff.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5dbeef87.css",
+    "static/js/main.9aea1aff.js"
+  ]
+}
